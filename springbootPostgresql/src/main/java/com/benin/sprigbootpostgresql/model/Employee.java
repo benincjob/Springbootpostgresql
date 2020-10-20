@@ -25,7 +25,7 @@ public class Employee {
 			sequenceName="employees_id_seq",
 			allocationSize=1
 			)
-	private long id;
+	private Long id;
 	
 	@Column(name="first_name")
 	private String firstname;
@@ -46,7 +46,7 @@ public class Employee {
 	public Employee() {
 		super();
 	}
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 	public void setId(long id) {
